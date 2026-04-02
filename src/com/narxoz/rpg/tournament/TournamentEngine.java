@@ -63,7 +63,7 @@ public class TournamentEngine {
             result.addLine("Hero HP: " + hero.getHealth() + ", Opponent HP: " + opponent.getHealth());
 
             if (!opponent.isAlive()) {
-                result.addLine(opponent.getName() + "defeated!");
+                result.addLine(opponent.getName() + "  defeated!");
                 break;
             }
 
