@@ -35,6 +35,7 @@ public class ArenaFighter {
         if (health < 0) {
             health = 0;
         }
+        health -= amount;
     }
 
     public void heal(int amount) {
